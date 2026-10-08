@@ -69,3 +69,8 @@ The system optimizes bottlenecks, not activity volume. High sends + low replies 
 ## Current status
 
 This repository is the initial executable specification. It does **not** claim that prospecting, outreach, payment collection or production is running persistently yet. External actions require authorized connectors, credentials, permissions and execution evidence.
+
+
+## WebMCP
+
+The current project boundary and future browser integration rules are documented in [docs/WEBMCP_INTEGRATION.md](docs/WEBMCP_INTEGRATION.md). This project has no user-facing browser application yet; WebMCP is not a backend runtime.
