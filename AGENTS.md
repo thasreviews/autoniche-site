@@ -31,3 +31,6 @@ Review the evidence-backed wins/failures and experiment gates at https://github.
 
 ## Reusable STEFNAUM skill catalog (2026-10-14)
 Before creating a new prospecting, lead-triage, fulfillment or evaluation agent, inspect https://github.com/thasreviews/stefnaum-social-os/blob/main/ops/SKILL-REUSE-REGISTER.md and its four linked SKILL.md files. Reuse or adapt only when relevant to this project. These are documented operating specifications, not installed autonomous runtimes. Verify source licenses, permissions, zero-budget requirements, independent QA, human approval and real-world outcomes before integrating.
+
+## STEFNAUM portfolio control plane
+Before selecting new projects or launching agents, consult the canonical connected portfolio registry: https://github.com/thasreviews/stefnaum-social-os/blob/main/ops/PORTFOLIO-CONTROL-PLANE.md . Follow the P0 revenue-first, P1 shared-enabler, P2 validate, P3 incubate and P4 pause prioritization. Reconcile duplicates by project ID and evidence. Do not claim all founder projects are inventoried or managed; external accounts and continuous workers require separate verified connections.
