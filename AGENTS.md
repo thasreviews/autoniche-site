@@ -28,3 +28,6 @@ Existing README describes a niche revenue state machine and CAD 5,000 verified-p
 
 ## Shared analog research (2026-10-14)
 Review the evidence-backed wins/failures and experiment gates at https://github.com/thasreviews/stefnaum-social-os/blob/main/ops/ANALOG-RESEARCH.md before expanding scope or automating acquisition. Prioritize real customer demand, productized delivery, verified payments, independent QA, and human escalation. Adapt only lessons relevant to this repository; the linked file is guidance, not a live shared agent runtime.
+
+## Reusable STEFNAUM skill catalog (2026-10-14)
+Before creating a new prospecting, lead-triage, fulfillment or evaluation agent, inspect https://github.com/thasreviews/stefnaum-social-os/blob/main/ops/SKILL-REUSE-REGISTER.md and its four linked SKILL.md files. Reuse or adapt only when relevant to this project. These are documented operating specifications, not installed autonomous runtimes. Verify source licenses, permissions, zero-budget requirements, independent QA, human approval and real-world outcomes before integrating.
