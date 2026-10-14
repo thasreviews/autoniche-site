@@ -25,3 +25,6 @@ Report objective, baseline, latest evidence, blocked integration, test result, d
 
 ## Project integration — Estate Media Niche OS
 Existing README describes a niche revenue state machine and CAD 5,000 verified-payments gate. Preserve those existing gates and tests. Prioritize a single real paid media pilot, not new speculative verticals. Run the existing npm test (Vitest) before promoting any change. Live prospecting, Stripe, creative delivery and outreach must be separately connected and proven; do not claim they are active from this file alone.
+
+## Shared analog research (2026-10-14)
+Review the evidence-backed wins/failures and experiment gates at https://github.com/thasreviews/stefnaum-social-os/blob/main/ops/ANALOG-RESEARCH.md before expanding scope or automating acquisition. Prioritize real customer demand, productized delivery, verified payments, independent QA, and human escalation. Adapt only lessons relevant to this repository; the linked file is guidance, not a live shared agent runtime.
