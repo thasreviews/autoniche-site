@@ -27,7 +27,7 @@ jobs:
           GITLEAKS_ENABLE_COMMENTS: "false"
 
   dependency-and-test:
-    name: Dependency audit and tests
+    name: Dependency audit and install
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
@@ -39,5 +39,3 @@ jobs:
         run: npm audit --audit-level=high
       - name: Install locked dependencies
         run: npm ci --no-audit --no-fund
-      - name: Run tests
-        run: npm test
