@@ -6,3 +6,4 @@ export * from "./permission-policy";
 export * from "./agent-builder";
 export * from "./agent-registry";
 export * from "./model-adapter";
+export * from "./meta-intelligence";
