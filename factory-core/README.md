@@ -62,3 +62,9 @@ The next build slice adds:
 - Tests for capability validation, tenant listing, versioning, and the disabled model boundary.
 
 These components do **not** generate executable code or run agents. The registry is in-memory only and is not a production security boundary. No model provider, paid inference, customer messaging, deployment, or external action is enabled. See [Agent Factory boundary](docs/AGENT_FACTORY_BOUNDARY.md).
+
+## THAS META-INTELLIGENCE ENGINE
+
+The Meta-Intelligence slice evaluates evidence-backed agent capability scores and proposes one measurable improvement experiment for the weakest eligible dimension. It requires a minimum sample size and evidence references. Proposals remain pending review and cannot apply themselves.
+
+See [THAS Meta-Intelligence](docs/THAS_META_INTELLIGENCE.md). No model judge, automated benchmark runner, self-modification, training, deployment, or live agent changes are enabled.
