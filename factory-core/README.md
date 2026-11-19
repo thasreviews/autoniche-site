@@ -49,3 +49,13 @@ The Vitest suite covers:
 - Approved-knowledge grounding and escalation.
 - Prompt-injection-like customer text.
 - No automatic sending.
+
+## Agent Factory foundation
+
+The next build slice adds:
+- A declarative agent-specification builder with a narrow capability allowlist.
+- Versioned, tenant-scoped registration in an in-memory prototype registry.
+- A provider-neutral model adapter contract with an unconfigured fail-closed implementation.
+- Tests for capability validation, tenant listing, versioning, and the disabled model boundary.
+
+These components do **not** generate executable code or run agents. The registry is in-memory only and is not a production security boundary. No model provider, paid inference, customer messaging, deployment, or external action is enabled. See [Agent Factory boundary](docs/AGENT_FACTORY_BOUNDARY.md).
