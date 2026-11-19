@@ -33,3 +33,19 @@ npm test
 ```
 
 The root package currently defines Vitest as its test runner. These tests have been added but have not yet been executed in this environment.
+
+## Business Enquiry Assistant
+
+The first product slice is a policy-first enquiry draft engine. It uses only approved knowledge entries, ties a draft to its source entry, and escalates unknown, ambiguous, sensitive, and prompt-injection-like requests. It never sends messages automatically.
+
+See [MVP boundaries](docs/MVP_BOUNDARIES.md). The sample knowledge file contains fictional test data only.
+
+## Test coverage
+
+The Vitest suite covers:
+- Evidence-gated revenue pipeline transitions.
+- Founder approval before outreach approval.
+- Verified receipt counting and duplicate protection.
+- Approved-knowledge grounding and escalation.
+- Prompt-injection-like customer text.
+- No automatic sending.
