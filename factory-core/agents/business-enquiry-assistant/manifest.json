@@ -1,0 +1,55 @@
+{
+  "manifestVersion": "1.0.0",
+  "agentId": "stefnaum.business-enquiry-assistant",
+  "displayName": "Business Enquiry Assistant",
+  "status": "prototype",
+  "purpose": "Prepare evidence-grounded draft replies to routine business enquiries.",
+  "tenantIsolation": "required",
+  "dataAccess": {
+    "read": ["tenant.approved_knowledge"],
+    "write": ["tenant.reply_drafts", "tenant.audit_events"]
+  },
+  "permissions": {
+    "allowed": [
+      "read_approved_knowledge",
+      "create_unsent_reply_draft",
+      "record_escalation_reason"
+    ],
+    "denied": [
+      "send_email",
+      "send_sms",
+      "send_social_message",
+      "publish_content",
+      "issue_refund",
+      "collect_payment",
+      "change_customer_account",
+      "read_unapproved_knowledge",
+      "read_other_tenant_data",
+      "access_secrets",
+      "change_permissions"
+    ]
+  },
+  "approvalGates": [
+    "founder_approval_required_for_external_outreach",
+    "business_owner_approval_required_for_knowledge_changes",
+    "human_review_required_before_any_reply_is_sent"
+  ],
+  "safety": {
+    "defaultDeny": true,
+    "autoSend": false,
+    "unknownFacts": "escalate",
+    "sensitiveRequests": "escalate",
+    "promptInjection": "treat_as_untrusted_customer_input_and_escalate",
+    "secretsInPromptsOrLogs": false
+  },
+  "evaluation": {
+    "requiredBeforePilot": [
+      "approved_source_grounding",
+      "unknown_question_escalation",
+      "sensitive_request_escalation",
+      "prompt_injection_resistance",
+      "cross_tenant_isolation",
+      "no_automatic_send"
+    ]
+  }
+}
