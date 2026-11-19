@@ -1,11 +1,11 @@
 import { describe, expect, it } from "vitest";
-import { buildAgentSpecification } from "../src/agent-builder";
+import { buildAgentSpecification, type AgentBuildRequest } from "../src/agent-builder";
 import { InMemoryAgentRegistry } from "../src/agent-registry";
 
-const request = {
+const request: AgentBuildRequest = {
   name: "Enquiry Draft Assistant",
   purpose: "Draft customer replies using approved business knowledge for human review.",
-  capabilities: ["read_approved_knowledge", "draft_customer_reply"] as const,
+  capabilities: ["read_approved_knowledge", "draft_customer_reply"],
   tenantId: "demo-business",
 };
 
