@@ -1,0 +1,16 @@
+[
+  {
+    "id": "hours-001",
+    "question": "What are your business opening hours?",
+    "answer": "We are open Monday to Friday, 9 AM to 5 PM.",
+    "approved": true,
+    "updatedAt": "2026-11-19T09:00:00.000Z"
+  },
+  {
+    "id": "location-001",
+    "question": "Where is your business located?",
+    "answer": "Our office is at 100 Example Street, Toronto.",
+    "approved": true,
+    "updatedAt": "2026-11-19T09:00:00.000Z"
+  }
+]
