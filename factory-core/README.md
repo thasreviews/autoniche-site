@@ -49,6 +49,9 @@ The Vitest suite covers:
 - Approved-knowledge grounding and escalation.
 - Prompt-injection-like customer text.
 - No automatic sending.
+- Agent specification validation and safe capability allowlisting.
+- Tenant-scoped registry listing, immutable copies, and version uniqueness.
+- Fail-closed unconfigured model adapter.
 
 ## Agent Factory foundation
 
